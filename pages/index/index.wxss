@@ -1,0 +1,42 @@
+/**index.wxss**/
+.box{
+  width: 400rpx;
+  margin: 50rpx auto 0;
+}
+
+.puzzle-wrap{
+  width: 414rpx;
+  height: 414rpx;
+  margin-bottom: 40rpx;
+  padding: 0;
+  background: #ccc;
+}
+
+.puzzle{
+  float: left;
+  width: 100rpx;
+  height: 100rpx;
+  font-size: 20rpx;
+  background: #3377cc;
+  text-align: center;
+  line-height: 100rpx;
+  border: 1rpx solid #ccc;
+  box-shadow: 1rpx 1rpx 4rpx;
+}
+
+.puzzle image{
+  width: 100%;
+  height: 100%;
+}
+
+.puzzle-empty{
+  background: #cccccc;
+  box-shadow: inset 2rpx 2rpx 18rpx;
+}
+
+.puzzle-empty image{
+  display: none;
+}    
+    
+      
+    

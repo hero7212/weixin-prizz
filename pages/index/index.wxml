@@ -1,0 +1,9 @@
+<!--index.wxml-->
+<view class="box">
+  <view class='puzzle-wrap'>
+    <view wx:for="{{puzzles}}" wx:key="{{index}}" class="{{puzzle!='' ? 'puzzle' : 'puzzle puzzle-empty'}}">
+      {{item}}
+    </view>
+  </view>
+</view>
+<button type='primary' bindtap='createPrizz'>重新开始</button>
