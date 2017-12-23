@@ -1,8 +1,8 @@
 <!--index.wxml-->
 <view class="box">
   <view class='puzzle-wrap'>
-    <view wx:for="{{puzzles}}" wx:key="{{index}}" class="{{puzzle!='' ? 'puzzle' : 'puzzle puzzle-empty'}}">
-      {{item}}
+    <view wx:for="{{puzzles}}" wx:key="{{index}}" class="{{item!='' ? 'puzzle' : 'puzzle puzzle-empty'}}">
+      <image src='{{item}}' data-index='{{index}}' bindtap='moveFn'></image>
     </view>
   </view>
 </view>

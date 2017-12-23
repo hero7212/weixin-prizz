@@ -1,21 +1,21 @@
 /**index.wxss**/
 .box{
   width: 400rpx;
-  margin: 50rpx auto 0;
+  margin: 50rpx 0 0 0;
 }
 
 .puzzle-wrap{
-  width: 414rpx;
-  height: 414rpx;
+  width: 100vw;
+  height: 100vw;
   margin-bottom: 40rpx;
-  padding: 0;
+  padding: 10rpx 0 0 5rpx;
   background: #ccc;
 }
 
 .puzzle{
   float: left;
-  width: 100rpx;
-  height: 100rpx;
+  width: 24vw;
+  height: 24vw;
   font-size: 20rpx;
   background: #3377cc;
   text-align: center;
